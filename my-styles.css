@@ -1,0 +1,73 @@
+
+/*Theme color*/
+body,
+#reset {
+	background-color: #52B3D9; /*change here*/
+}
+#plus-one {
+	color: #52B3D9; /*and here*/
+}
+
+/*Choose your own theme color at http://www.flatuicolorpicker.com
+cinnabar: F03434
+cabaret: D2527F
+studio: 8E44AD
+shakespeare: 52B3D9 (default)
+summer green: 91B496
+gossip: 87D37C
+california: F89406
+crusta: F2784B
+edward: ABB7B7
+*/
+
+/*Habit Tracker Styles*/
+
+body {
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Indie Flower', cursive;
+}
+
+button,
+button:focus {
+	border-radius: 3px;
+	touch-action: manipulation;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#plus-one {
+	background-color: white;
+	border: none;
+	padding: 15px 32px;
+}
+
+#reset {
+	border-color: rgba(255,255,255,0.8);
+	border-style: solid;
+	color: rgba(255,255,255,0.8);
+	padding: 5px 15px;
+}
+
+a {
+	color: white;
+}
+
+button:hover,
+div:hover {
+	cursor: pointer;
+}
+
+div {
+	font-family: monospace;
+	color: rgba(255,255,255,0.6);
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
